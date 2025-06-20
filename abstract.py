@@ -40,3 +40,6 @@ circle = Circle(8)
 print(f"Rectangle Area: {rect.area()}")        # Output: Rectangle Area: 15
 print(f"Rectangle Perimeter: {rect.perimeter()}")
 
+doc.add_heading('Sorted Words from File', level=1)
+for word in words_sorted:
+    doc.add_paragraph(word)
